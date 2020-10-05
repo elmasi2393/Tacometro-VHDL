@@ -1,9 +1,4 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Multiplexor 
 -- Project Name: 	 Tacometro
 -- Description:    La funcinalidad del multiplexor es ir variando sus salidas,
@@ -36,7 +31,7 @@ architecture Behavioral of multiplexorBCD is
           Salida_7seg : out  STD_LOGIC_VECTOR (6 downto 0));
 	END COMPONENT;
 	
---SEÑALES
+--SEÃ‘ALES
 signal cont: INTEGER range 0 to 15 := 15;
 signal digitoBCD: STD_LOGIC_VECTOR(3 downto 0);
 
@@ -48,7 +43,7 @@ begin
 	
 	multiplexor:process (Ck)
 	begin
-		if Ck = '1' and Ck 'EVENT then --Cada vez que se llegue señal de clock
+		if Ck = '1' and Ck 'EVENT then --Cada vez que se llegue seÃ±al de clock
 			--Selector de digito
 			if cont = 3 then
 				cont <= 15;		 --Volvemos al nibble inicial

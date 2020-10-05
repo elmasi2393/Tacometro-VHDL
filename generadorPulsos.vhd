@@ -1,15 +1,10 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Generador de pulsos - Frecuencias de prueba 
 -- Project Name: 	 Tacometro
 -- Description:    Nos permite variar la frecuencia de salida por medio de dos
---						 pulsadores, siendo la frecuencia minima de 40Hz y la maxima
---						 de 250Hz, lo que se traduce a 400RPM a 2500RPM ya que estos
---						 pulsos estan conectadas en la entrada denominada Sensor.
+--		   pulsadores, siendo la frecuencia minima de 40Hz y la maxima
+--		   de 250Hz, lo que se traduce a 400RPM a 2500RPM ya que estos
+--		   pulsos estan conectadas en la entrada denominada Sensor.
 
 -- Revision: 
 -- Revision 0.01 - File Created
@@ -36,7 +31,7 @@ COMPONENT monoestableAntirebotes IS
 		   Ck: in STD_LOGIC;
            pulso_OUT : inout  STD_LOGIC := '0');
 END COMPONENT;
---Señales
+--SeÃ±ales
 signal pAntiRebotes: STD_LOGIC_VECTOR(1 downto 0) := "00";
 signal detectaPulso: STD_LOGIC := '0';
 

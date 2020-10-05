@@ -1,13 +1,8 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Reset de cuenta vueltas 
 -- Project Name: 	 Tacometro
 -- Description:    Encargado de otorgarle un pulso de reset al contador de vueltas
---						 en el momento justo para que el circuito quede sincronizado.
+--		   en el momento justo para que el circuito quede sincronizado.
 
 -- Revision: 
 -- Revision 0.01 - File Created

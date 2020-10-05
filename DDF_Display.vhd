@@ -1,11 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Refresco de Display 
--- Project Name: 	 Tacometro
+-- Project Name:   Tacometro
 -- Description:    Trabaja conjunto al multiplexor, y es el que se encarga de
 --						 de enviarle un tren de pulsos para que el multiplexor funcione
 --						 pero a una frecuencia inferior que el clock de la placa, ambas

@@ -1,14 +1,9 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Tacometro - Bloque general 
 -- Project Name: 	 Tacometro
 -- Description:    Bloque general del tacometro, en el cual se engloban los demas
---						 bloques que se utilizan para el funcionamiento del mismo, incluido
---						 un circuito que nos permite probarlo.
+--		   bloques que se utilizan para el funcionamiento del mismo, incluido
+--		   un circuito que nos permite probarlo.
 
 -- Revision: 
 -- Revision 0.01 - File Created
@@ -82,7 +77,7 @@ Port ( Entrada : in  STD_LOGIC_VECTOR (15 downto 0);
 
 END COMPONENT;
 
-----------------SEÑALES----------------
+----------------SEÃ‘ALES----------------
 --Interconexiones
 signal conexionDeco: STD_LOGIC_VECTOR(11 downto 0):= X"000";
 signal conexionMUX: STD_LOGIC_VECTOR(15 downto 0):= X"0000";

@@ -2,10 +2,10 @@
 -- Module Name:    Refresco de Display 
 -- Project Name:   Tacometro
 -- Description:    Trabaja conjunto al multiplexor, y es el que se encarga de
---						 de enviarle un tren de pulsos para que el multiplexor funcione
---						 pero a una frecuencia inferior que el clock de la placa, ambas
---						 especificadas en las constantes clockFPGA (clock de la placa) y
---						 clockSaliente(clock de salida del bloque)
+--		   de enviarle un tren de pulsos para que el multiplexor funcione
+--		   pero a una frecuencia inferior que el clock de la placa, ambas
+--		   especificadas en las constantes clockFPGA (clock de la placa) y
+--		   clockSaliente(clock de salida del bloque)
 
 -- Revision: 
 -- Revision 0.01 - File Created

@@ -2,9 +2,9 @@
 -- Module Name:    Multiplexor 
 -- Project Name: 	 Tacometro
 -- Description:    La funcinalidad del multiplexor es ir variando sus salidas,
---						 tanto digitos como anodos, con la llegada de un pulso de reloj,
---						 enviado por Refresco Display, para poder ser visualizada en
---						 un display 7 segmentos.
+--		   tanto digitos como anodos, con la llegada de un pulso de reloj,
+--		   enviado por Refresco Display, para poder ser visualizada en
+--		   un display 7 segmentos.
 
 -- Revision: 
 -- Revision 0.01 - File Created

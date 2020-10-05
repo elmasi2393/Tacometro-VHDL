@@ -1,14 +1,9 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Decodificador BCD a 7 segmentos 
 -- Project Name: 	 Tacometro
--- Description:    Convierte la señal de codigo BCD a unsa salida que asigne el
---						 estado necesario a cada segmento del display 7 segmentos, con
---						 configuracion de anodo comun.
+-- Description:    Convierte la seÃ±al de codigo BCD a unsa salida que asigne el
+--		   estado necesario a cada segmento del display 7 segmentos, con
+--		   configuracion de anodo comun.
 
 -- Revision: 
 -- Revision 0.01 - File Created

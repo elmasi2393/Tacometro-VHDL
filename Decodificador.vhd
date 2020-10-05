@@ -1,12 +1,7 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Decodificador 
--- Project Name: 	 Tacometro
--- Description:    Es el bloque que se encarga de transformar la señal recibida del
+-- Project Name:   Tacometro
+-- Description:    Es el bloque que se encarga de transformar la seÃ±al recibida del
 --						 contador de vueltas, en binario, y transformarla a BCD por medio
 --						 del algortimo doubble dable.
 

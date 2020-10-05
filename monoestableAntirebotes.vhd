@@ -1,14 +1,9 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Monoestable Antirebotes
--- Project Name: 	 Tacometro
--- Description:    Se encarga de eliminar el ruido en la señal de entrada, 
---						 proveniente de pulsadores, y en su salida tenemos un pulso
---						 limpio
+-- Project Name:   Tacometro
+-- Description:    Se encarga de eliminar el ruido en la seÃ±al de entrada, 
+--		   proveniente de pulsadores, y en su salida tenemos un pulso
+--		   limpio
 
 -- Revision: 
 -- Revision 0.01 - File Created
@@ -30,7 +25,7 @@ architecture Behavioral of monoestableAntirebotes is
 	constant tiempoAntirebotes: NATURAL := 10; 											--Tiempo en ms
 	constant frecuenciaClock: NATURAL  := 100;	 										--Frecuencia en MHz
 	constant pulsosClock: NATURAL  := (tiempoAntirebotes*frecuenciaClock*1000);--Numero de pulsos necesarios
-	--Señales de programa
+	--SeÃ±ales de programa
 	signal estadoAnterior: STD_LOGIC := '0';
 	signal contador: NATURAL := 0;
 

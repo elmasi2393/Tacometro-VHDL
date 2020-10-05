@@ -1,9 +1,4 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Contador de vueltas
 -- Project Name: 	 Tacometro
 -- Description:    Se encarga de contar la cantidad de pulsos que se envian del
@@ -28,8 +23,8 @@ entity cuentaVueltas is
 end cuentaVueltas;
 
 architecture Behavioral of cuentaVueltas is
-	--SEÑALES
-	signal cuentaVueltas: NATURAL range 0 to 4095;	--Señal de contador de vueltas
+	--SEÃ‘ALES
+	signal cuentaVueltas: NATURAL range 0 to 4095;	--SeÃ±al de contador de vueltas
 	
 begin	
 	vuelta:PROCESS (Rst, Sensor)
@@ -37,7 +32,7 @@ begin
 		 if Rst = '1' then	--Reset
 			cuentaVueltas <= 0;
 			
-		 elsif Sensor = '1' and Sensor 'EVENT then --Señal del sensor
+		 elsif Sensor = '1' and Sensor 'EVENT then --SeÃ±al del sensor
 			cuentaVueltas <= cuentaVueltas + 10;    --Incrementamos las RPM
 		 end if;
 	end process Vuelta;

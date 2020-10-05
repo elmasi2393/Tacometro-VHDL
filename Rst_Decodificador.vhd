@@ -1,14 +1,9 @@
 ----------------------------------------------------------------------------------
--- Company: Universidad Tecnológica Nacional - Facultad Regional San Francisco
--- Engineer: Rinaudo, Facundo. Gatto, Maximiliano. Lenta, Maximiliano.
--- 
--- Create Date:    02/10/2020 
--- Design Name:    Técnicas Digitales I. Trabajo Práctico N°4
 -- Module Name:    Activador del decodificador 
--- Project Name: 	 Tacometro
+-- Project Name:   Tacometro
 -- Description:    Su funcion es otorgarle el pulso,en un momento justo, para que
---						 la señal proveniente del contador de vueltas sea decodificada
---						 de binario a BCD.
+--		   la seÃ±al proveniente del contador de vueltas sea decodificada
+--		   de binario a BCD.
 
 -- Revision: 
 -- Revision 0.01 - File Created
